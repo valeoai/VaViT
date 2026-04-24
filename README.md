@@ -100,9 +100,9 @@ We provide the following models:
 | VaViT-B  | WOD           |       |
 
 
-The nuScenes models are released under the following [terms](https://www.nuscenes.org/terms-of-use)
-The SemanticKITTI are released under the following [terms](https://semantic-kitti.org/dataset.html#licence)
-The WOD models are released under the following [terms](https://waymo.com/open/terms/)
+The nuScenes models are released under the following [terms](https://www.nuscenes.org/terms-of-use).\
+The SemanticKITTI are released under the following [terms](https://semantic-kitti.org/dataset.html#licence).\
+The WOD models are released under the following [terms](https://waymo.com/open/terms/).
 
 ## Evaluation
 
@@ -256,7 +256,7 @@ python train.py \
 --multiprocessing-distributed
 ```
 
-At the beginning of the training, the instances for cutmix augmentation are saved in `/tmp/skitti_instances/`. *If this process is interrupted before completion, please delete `/tmp/semantic_kitti_instances/` and relaunch the training.* You can disable the instance cutmix augmentations by editing the `yaml` config file to set `instance_cutmix` to `False`.
+At the beginning of the training, the instances for cutmix augmentation are saved in `/tmp/kitti_instances/`. *If this process is interrupted before completion, please delete `/tmp/kitti_instances/` and relaunch the training.* You can disable the instance cutmix augmentations by editing the `yaml` config file to set `instance_cutmix` to `False`.
 
 
 ### WOD
