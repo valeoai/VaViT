@@ -1,0 +1,26 @@
+.ruff_cache
+
+# Compiled python modules.
+__pycache__/
+*.pyc
+
+# Python package
+*.egg-info/
+*.egg
+
+# Log folders
+logs/
+scripts/
+checkpoints/
+predictions/
+nuscenes-devkit/
+semantic-kitti-api/
+
+# Files
+*.npy
+*.npz
+*.tgz
+*.zip
+*.tar.gz
+*.out
+*.txt

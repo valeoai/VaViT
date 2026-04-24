@@ -1,0 +1,56 @@
+embedding:
+  input_feat:
+    - "intensity"
+    - "xyz"
+    - "radius"
+  voxel_size: 0.1
+  neighbors: 16
+  cin: 5
+  chidden: 128
+  num_layers: 4
+
+vit:
+  dim: 768
+  depth: 12
+  num_heads: 12
+  expansion: 4.0
+  drop_prob: 0.3
+  bev_size: 0.5
+  
+merge_head:
+  chidden: 128
+  cout: 128
+
+classif:
+  nb_class: 16
+
+dataloader:
+  batch_size: 8
+  num_workers: 16
+
+augmentations:
+  rotation: 
+    - [2, 6]
+  flip: 
+    - [0, 1]
+    - [4, 5]
+  scale:
+    - [0, 1, 2]
+    - [4, 5, 6, 7]
+    - 0.1
+  pillarmix:
+    - 7.5
+    - 3
+    - 8
+
+loss:
+  lovasz: 1.0
+
+optim:
+  lr: .001
+  weight_decay: 0.003
+
+scheduler:
+  min_lr: 0.0
+  max_epoch: 45
+  epoch_warmup: 4
