@@ -1,4 +1,4 @@
-# ScaLR
+# VaViT
 
 PyTorch code and models for VaViT.
 
