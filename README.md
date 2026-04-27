@@ -93,11 +93,11 @@ The folder structure will be:
 
 We provide the following models:
 
-| Model    | Dataset       | Link  |
-|----------|---------------|-------|
-| VaViT-B  | nuScenes      |       |
-| VaViT-B  | SemanticKITTI |       |
-| VaViT-B  | WOD           |       |
+| Model    | Dataset       | mIoU (last / best)    |
+|----------|---------------|:---------------------:|
+| VaViT-B  | nuScenes      |  [81.3 % / 81.3 %]()  |
+| VaViT-B  | SemanticKITTI |  [67.6 % / 68.0 %]()  |
+| VaViT-B  | WOD           |  [70.5 % / 70.9 %]()  |
 
 
 The nuScenes models are released under the following [terms](https://www.nuscenes.org/terms-of-use).\
