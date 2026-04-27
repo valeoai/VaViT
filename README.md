@@ -23,7 +23,7 @@ If you find this code or work useful, please cite the following [paper]():
 @article{vavit,
   title={Vanilla ViT for Automotive Point Cloud Semantic Segmentation},
   author={Puy, Gilles and Samet, Nermin and Boulch, Alexandre and Gidaris, Spyros and Vu, Tuan-Hung and Marlet, Renaud},
-  booktitle={arXiv},
+  journal={arXiv},
   year={2026}
 }
 ```
