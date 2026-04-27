@@ -91,7 +91,7 @@ The folder structure will be:
 
 ## Available models
 
-We provide the following models:
+We provide the following models.
 
 | Model    | Dataset       | mIoU (last / best)    |
 |----------|---------------|:---------------------:|
@@ -99,10 +99,12 @@ We provide the following models:
 | VaViT-B  | SemanticKITTI |  [67.6 % / 68.0 %]()  |
 | VaViT-B  | WOD           |  [70.5 % / 70.9 %]()  |
 
+Download them and unzip them in the `VaViT/` folder. The checkpoints will appear in a subfolder `./checkpoints/`.
 
-The nuScenes models are released under the following [terms](https://www.nuscenes.org/terms-of-use).\
-The SemanticKITTI are released under the following [terms](https://semantic-kitti.org/dataset.html#licence).\
-The WOD models are released under the following [terms](https://waymo.com/open/terms/).
+Notes:
+- *The nuScenes models are released under the following [terms](https://www.nuscenes.org/terms-of-use).*
+- *The SemanticKITTI are released under the following [terms](https://semantic-kitti.org/dataset.html#licence).*
+- *The WOD models are released under the following [terms](https://waymo.com/open/terms/).*
 
 ## Evaluation
 
