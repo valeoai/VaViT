@@ -95,9 +95,9 @@ We provide the following models.
 
 | Model    | Dataset       | mIoU (last / best)    |
 |----------|---------------|:---------------------:|
-| VaViT-B  | nuScenes      |  [81.3 % / 81.3 %]()  |
-| VaViT-B  | SemanticKITTI |  [67.6 % / 68.0 %]()  |
-| VaViT-B  | WOD           |  [70.5 % / 70.9 %]()  |
+| VaViT-B  | nuScenes      |  [81.3 % / 81.3 %](https://github.com/valeoai/VaViT/releases/download/v0.1.0/nuscenes.tar.gz)  |
+| VaViT-B  | SemanticKITTI |  [67.6 % / 68.0 %](https://github.com/valeoai/VaViT/releases/download/v0.1.0/semantic_kitti.tar.gz)  |
+| VaViT-B  | WOD           |  [70.5 % / 70.9 %](https://github.com/valeoai/VaViT/releases/download/v0.1.0/waymo.tar.gz)  |
 
 Download them and unzip them in the `VaViT/` folder. The checkpoints will appear in a subfolder `./checkpoints/`.
 
