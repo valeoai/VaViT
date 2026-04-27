@@ -10,7 +10,7 @@ PyTorch code and models for VaViT.
 [*Tuan-Hung VU*<sup>1</sup>](https://tuanhungvu.github.io/)
 [*Renaud Marlet*<sup>1,2</sup>](http://imagine.enpc.fr/~marletr/)  
 
-<sup>1</sup>*valeo.ai, France*\
+<sup>1</sup>*valeo.ai, France*.\
 <sup>2</sup>*LIGM, Ecole des Ponts, Univ Gustave Eiffel, CNRS, France*.
 
 
@@ -61,7 +61,7 @@ rm info_datasets.tar.gz
 
 ### Datasets
 
-We use the following datasets: [nuScenes](https://www.nuscenes.org/nuscenes), [SemanticKITTI](https://www.semantic-kitti.org/) and [Waymo Open Dataset](https://waymo.com/open/).
+We use the following datasets: [nuScenes](https://www.nuscenes.org/nuscenes), [SemanticKITTI](https://www.semantic-kitti.org/) and [Waymo Open Dataset](https://waymo.com/open/) (WOD).
 
 Please download nuScenes and SemanticKITTI. The folder structure must be:
 ```
@@ -76,7 +76,7 @@ Please download nuScenes and SemanticKITTI. The folder structure must be:
 |  |- dataset/
 ```
 
-For WOD, you must preprocess it as described in [Pointcept](https://github.com/Pointcept/Pointcept#waymo)
+For WOD, you must preprocess it as described in [Pointcept](https://github.com/Pointcept/Pointcept#waymo).
 The folder structure will be:
 ```
 /path/to/datasets/
@@ -292,4 +292,4 @@ VaViT is released under the [Apache 2.0 license](./LICENSE).
 
 The implementation of the Lovász loss in `utils/lovasz.py` is released under [MIT Licence](https://github.com/bermanmaxim/LovaszSoftmax/blob/master/LICENSE).
 
-The SemanticKITTI config file in `datasets/semantic-kitti.yaml` is released under [MIT License](https://github.com/PRBonn/semantic-kitti-api/blob/master/LICENSE)
+The SemanticKITTI config file in `datasets/semantic-kitti.yaml` is released under [MIT License](https://github.com/PRBonn/semantic-kitti-api/blob/master/LICENSE).
