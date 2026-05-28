@@ -1,0 +1,17 @@
+VaViT
+Copyright 2026, Valeo Comfort and Driving Assistance (valeo.ai)
+
+This product includes software developed at:
+  - ESAT-PSI, KU Leuven (Lovász-Softmax loss, MIT License, Maxim Berman 2018)
+  - University of Bonn (SemanticKITTI API config, MIT License, Behley et al.)
+
+IMPORTANT — MODEL CHECKPOINTS:
+The pre-trained model checkpoints distributed with this project were trained
+on the following datasets and are therefore subject to their respective terms
+of use, which restrict commercial use:
+  - nuScenes (CC BY-NC-SA 4.0): https://www.nuscenes.org/terms-of-use
+  - SemanticKITTI (CC BY-NC-SA 3.0): https://semantic-kitti.org/dataset.html#licence
+  - Waymo Open Dataset: https://waymo.com/open/terms/
+
+The SOURCE CODE in this repository is separately licensed under Apache 2.0
+and the dataset-based restrictions do NOT apply to the code itself.
