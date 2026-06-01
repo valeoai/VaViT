@@ -2,7 +2,7 @@
 
 PyTorch code and models for VaViT.
 
-[**Vanilla ViT for Automotive Point Cloud Semantic Segmentation**]()\
+[**Vanilla ViT for Automotive Point Cloud Semantic Segmentation**](https://arxiv.org/abs/2605.31177)\
 [*Gilles Puy*<sup>1</sup>](https://sites.google.com/site/puygilles/home),
 [*Nermin Samet*<sup>1</sup>](https://nerminsamet.github.io/)
 [*Alexandre Boulch*<sup>1</sup>](http://boulch.eu),
